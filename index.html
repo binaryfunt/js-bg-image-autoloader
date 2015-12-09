@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>JS background image autoloader</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <style id="if-no-js-stop-images"></style>
+    <script>      
+      var style = document.getElementById("if-no-js-stop-images");
+      style.innerHTML = "div { background-image: none !important; }";
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="script.js" async></script>
+  </head>
+  
+  <body class="no-js">
+    <div style="background: url(http://example.com/images/DSC_4844_L.jpg) center center/cover;">
+      <!-- Fallback image for no js -->
+      This is some text
+    </div>
+  </body>
+</html>
