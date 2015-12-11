@@ -1,5 +1,6 @@
 # js-bg-image-autoloader
 (Work in progress)
+
 Automatically loads background image size that is targeted to screen resolution/size.
 This is being developed for saving mobile data, and actualy showing an image (though pixelated) on slow connections,
 whilst a sufficiently high res version loads
