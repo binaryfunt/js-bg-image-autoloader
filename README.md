@@ -18,3 +18,7 @@ If no-js, fallback image of medium resolution loads.
 using little data
 1. If media query matches, it also loads a high res version. When this has finished loading,
 it replaces the low res version.
+
+## Demo
+
+[Here is a JSFiddle](https://jsfiddle.net/wogzmr9L/). You could enable network throttling in developer tools to simulate a slow connection, and disable caching.
